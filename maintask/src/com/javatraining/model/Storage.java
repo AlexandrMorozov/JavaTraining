@@ -1,5 +1,7 @@
- package com.javatraining;
- 
+ package com.javatraining.model;
+
+ import com.javatraining.status_model.BookStatus;
+
  public class Storage {
 	 
 	 private Book[] listOfBooks;
@@ -10,7 +12,7 @@
 	 
 	 public void removeBook(int bookNum) {
 		 listOfBooks[bookNum].setBookStatus(BookStatus.UNAVAILABLE);
-		 
+
 		 System.out.println("Book " + listOfBooks[bookNum].getBookTitle() + " was removed"); //
 	 }
 	 

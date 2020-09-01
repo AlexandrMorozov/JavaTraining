@@ -1,5 +1,7 @@
- package com.javatraining;
- 
+ package com.javatraining.model;
+
+ import com.javatraining.status_model.BookStatus;
+
  public class Book {
 	 
 	private String bookTitle;

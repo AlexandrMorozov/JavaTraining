@@ -1,5 +1,10 @@
  package com.javatraining;
- 
+
+ import com.javatraining.model.Book;
+ import com.javatraining.model.BookShop;
+ import com.javatraining.model.Storage;
+ import com.javatraining.status_model.BookStatus;
+
  public class Main {
 	 
 	 public static void main(String[] args) {

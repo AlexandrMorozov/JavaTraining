@@ -1,5 +1,8 @@
- package com.javatraining;
- 
+ package com.javatraining.model;
+
+ import com.javatraining.status_model.BookStatus;
+ import com.javatraining.status_model.OrderStatus;
+
  public class BookShop {
 	 
 	 private Order[] listOfOrders = new Order[100];

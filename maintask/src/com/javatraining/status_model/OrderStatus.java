@@ -1,4 +1,4 @@
- package com.javatraining;
+ package com.javatraining.status_model;
  
  public enum OrderStatus {
      
